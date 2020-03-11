@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_20"
+        tools:context=".operators.OperatorsActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="simpleOperatorsClick"
+            android:text="@string/simple" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="createOperatorsClick"
+            android:text="@string/create" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deferOperatorsClick"
+            android:text="@string/defer" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fromOperatorsClick"
+            android:text="@string/from" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="intervalOperatorsClick"
+            android:text="@string/interval" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rangeOperatorsClick"
+            android:text="@string/range" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="repearOperatorsClick"
+            android:text="@string/repeat" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="timerOperatorsClick"
+            android:text="@string/timer" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="bufferOperatorsClick"
+            android:text="@string/buffer" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="mapOperatorsClick"
+            android:text="@string/map" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="flatmapOperatorsClick"
+            android:text="@string/flatmap" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="concatmapOperatorsClick"
+            android:text="@string/concatmap" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="switchmapOperatorsClick"
+            android:text="@string/switchmap" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="groupbyOperatorsClick"
+            android:text="@string/groupby" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="scanOperatorsClick"
+            android:text="@string/scan" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="debounceOperatorsClick"
+            android:text="@string/debounce" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="distinctOperatorsClick"
+            android:text="@string/distinct" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="elementsperatorsClick"
+            android:text="@string/elementsat" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="filterOperatorsClick"
+            android:text="@string/filter" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ignoreOperatorsClick"
+            android:text="@string/ignore" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="skipOperatorsClick"
+            android:text="@string/skip" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="takeOperatorsClick"
+            android:text="@string/take" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="combineLatestperatorsClick"
+            android:text="@string/combine" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="joinOperatorsClick"
+            android:text="@string/join" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="mergeOperatorsClick"
+            android:text="@string/merge" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="concatOperatorsClick"
+            android:text="@string/concat" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="zipOperatorsClick"
+            android:text="@string/zip" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="publishSubjectOperatorsClick"
+            android:text="@string/publicsubject" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="replaysubjectOperatorsClick"
+            android:text="@string/replaysubject" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="asyncsubjectOperatorsClick"
+            android:text="@string/asyncsubject" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="behavioursubjectOperatorsClick"
+            android:text="@string/behavioursubject" />
+
+    </LinearLayout>
+</ScrollView>

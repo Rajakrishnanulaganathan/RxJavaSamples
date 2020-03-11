@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rk.rxjavasamples">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".operators.CreateActivity" />
+        <activity android:name=".operators.DeferActivity" />
+        <activity android:name=".operators.FromActivity" />
+        <activity android:name=".operators.IntervalActivity" />
+        <activity android:name=".operators.RangeActivity" />
+        <activity android:name=".operators.RepeatActivity" />
+        <activity android:name=".operators.TimerlActivity" />
+        <activity android:name=".operators.BufferActivity" />
+        <activity android:name=".operators.MapActivity" />
+        <activity android:name=".operators.FlatMapActivity" />
+        <activity android:name=".operators.ConcatMapActivity" />
+        <activity android:name=".operators.SwitchMapActivity" />
+        <activity android:name=".operators.GroupByActivity" />
+        <activity android:name=".operators.ScanActivity" />
+        <activity android:name=".operators.DistinctActivity" />
+        <activity android:name=".operators.ElementAtActivity" />
+        <activity android:name=".operators.FilterActivity" />
+        <activity android:name=".operators.IgnoreElementsActivity" />
+        <activity android:name=".operators.SkipActivity" />
+        <activity android:name=".operators.TakeActivity" />
+        <activity android:name=".operators.CombineLatestActivity" />
+        <activity android:name=".operators.JoinActivity" />
+        <activity android:name=".operators.MergeActivity" />
+        <activity android:name=".operators.ConcatActivity" />
+        <activity android:name=".operators.ZipActivity" />
+        <activity android:name=".operators.PublishSubjectExampleActivity" />
+        <activity android:name=".operators.ReplaySubjectExampleActivity" />
+        <activity android:name=".operators.AsyncSubjectExampleActivity"/>
+        <activity android:name=".operators.BehaviourSubjectExampleActivity"/>
+        <activity android:name=".operators.DebounceActivity" />
+        <activity android:name=".operators.SimpleActivity" />
+        <activity android:name=".operators.OperatorsActivity" />
+        <activity android:name=".cache.CacheActivity"/>
+        <activity android:name=".rxbus.RxBusActivity" />
+        <activity android:name=".search.SearchActivity"/>
+    </application>
+
+</manifest>
